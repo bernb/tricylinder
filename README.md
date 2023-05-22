@@ -47,7 +47,7 @@ Existing solutions for triangulations are limited to surfaces that can be define
 ### Display Unit Cylinder
 Create and plot a cylinder with a radius equal to 1. 
 ```
-cylinder
+tricylinder
 ```
 
 ### Specify Cylinder Radius and Height
