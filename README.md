@@ -29,7 +29,7 @@ TR = tricylinder(r,n) returns the triangulation object of a cylinder with the sp
 
 ---
 
-[TR, T, x, y, z] = tricylinder(___)  returns the triangulation object together
+[TR, T, x, y, z] = tricylinder(___)  returns the triangulation object together with the connectivity matrix T and x-, y-, and z-coordinates.
 
 ---
 
@@ -61,6 +61,7 @@ h = 20;
 z = z*h;
 TR = triangulation(T, x, y, z);
 trisurf(TR)
+```
 
 ### Display Multiple Cylinders at Different Locations
 Create a cylinder and use the returned coordinates to plot multiple cylinders in different locations.
@@ -72,6 +73,7 @@ r = 2 + cos(t);
 [TR, T, x, y, z] = tricylinder(r);
 ```
 Plot two more cylinders on top of the first cylinder.
+```
 hold on
 z = z+1;
 TR2 = triangulation(T, x, y, z);
