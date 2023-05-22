@@ -1,4 +1,5 @@
 # tricylinder
+[![View tricylinder on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/129914-tricylinder)
 
 ## Summary
 Single function to create a triangulated cylinder. This function mimics Matlab's [cylinder](https://www.mathworks.com/help/matlab/ref/cylinder.html) behavior, but returns a [triangulation](https://www.mathworks.com/help/matlab/ref/triangulation.html) object instead of x-, y- and z-coordinates.
